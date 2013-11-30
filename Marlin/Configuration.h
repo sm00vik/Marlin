@@ -1,6 +1,10 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
+// Mendel90 hobbed bolt and 39:11 Wade's gears
+// micro steps per rev * gear ratio / ( pinch wheel diameter * pi)
+#define E_STEPS_PER_MM ((3200 * 39.0)/(11.0 * 6.75 * 3.142))*2 // = 534.95
+
 // This configuration file contains the basic settings.
 // Advanced settings can be found in Configuration_adv.h
 // BASIC SETTINGS: select your board type, temperature sensor type, axis scaling, and endstop configuration
