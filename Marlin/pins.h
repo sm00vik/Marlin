@@ -2129,9 +2129,11 @@
  #define SDPOWER -1
  #define SDSS 53
  #define LED_PIN 13
- 
- #define FAN_PIN 7
- #define FAN2_PIN 6
+ // 7pin - 80x80mm fan; 6pin- 60x60mm fan
+ // FAN - main fan for cooling 
+ // FAN2 - cooling heating bed at the end of printing
+ #define FAN_PIN 6
+ #define FAN2_PIN 7
  #define PS_ON_PIN 12
  #define KILL_PIN -1
  
